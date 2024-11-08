@@ -1,0 +1,79 @@
+header h1 {
+    color: white;
+    background-color: rgb(14, 112, 224);
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+
+nav h1 {
+    background-color: rgb(134, 132, 8);
+    padding: 2px;
+}
+
+nav ul {
+    color: aliceblue;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 10;
+    text-decoration: none;
+}
+
+nav ul col a {
+    
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+section h2 {
+    color: white;
+    background-color: rgb(13, 86, 170);
+    text-align: center;
+    padding: 10px;
+}
+
+section h3 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+section p {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+section li {
+    text-align: center;
+    list-style: none;
+}
+
+section li button {
+    background-color: rgb(19, 50, 155);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 10;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+section li button:hover {
+    background-color: rgb(14, 40, 120); 
+}
