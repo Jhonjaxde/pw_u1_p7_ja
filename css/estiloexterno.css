@@ -1,7 +1,11 @@
+
+*{
+    text-align: center; 
+}
 header h1 {
     color: white;
     background-color: rgb(14, 112, 224);
-    text-align: center;
+   
     padding: 10px;
     font-family: sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -17,7 +21,7 @@ nav h1 {
 nav ul {
     color: aliceblue;
     list-style: none;
-    text-align: center;
+    
     padding: 10px;
     font-family: sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -27,7 +31,7 @@ nav ul {
 
 nav ul col a {
     
-    text-align: center;
+    
     padding: 10px;
     font-family: sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -39,7 +43,7 @@ nav ul col a {
 section h2 {
     color: white;
     background-color: rgb(13, 86, 170);
-    text-align: center;
+   
     padding: 10px;
 }
 
@@ -51,19 +55,19 @@ section h3 {
 
 section p {
     font-family: sans-serif;
-    text-align: center;
+    
 }
 
 
 section li {
-    text-align: center;
+    
     list-style: none;
 }
 
 section li button {
     background-color: rgb(19, 50, 155);
     color: aliceblue;
-    text-align: center;
+    
     padding: 10px;
     font-family: sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -76,4 +80,39 @@ section li button {
 
 section li button:hover {
     background-color: rgb(14, 40, 120); 
+}
+
+.titulos{
+    color: green;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+#id_pie_pagina_uce{
+    color: navajowhite;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+}
+/*img[src="valorqueyoquiera"]{
+    width: 200px;
+    height: 300px;
+}*/
+img[src*=".png"]{
+    width: 200px;
+    height: 300px;
+}
+
+input[type]{
+    background-color: cornflowerblue;
+}
+.titulos:hover{
+    color:yellow;
+    background-color: black;
+}
+
+/*Combinacion de selectores*/
+h1,h3,h5{
+    color: antiquewhite;
+    background-color: aquamarine;
 }
