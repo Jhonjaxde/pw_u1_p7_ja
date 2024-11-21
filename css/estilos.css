@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+display: grid;
+grid-template-columns: 50px 50px 50px 50px ;
+grid-row: 70px 70px 70px 70px 70px ;
+padding: 15px;
+/*border: solid blue;*/
+border-radius: 15px;
+background: rgb(176, 190, 199);
+box-shadow: 15px 10px 5px 5px rgb(44, 44, 44);
+border-radius: 15px;
+}
+/*#num5{
+    border: solid blue;
+    padding: 10px 5px 20px 7px;
+    margin: 10px 5px 20px 7px;
+}*/
+.display{
+    grid-column: span 4;
+    padding: 15px;
+    background: rgb(128, 128, 159);
+    border-radius: 15px;
+    text-align: right;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 35px;
+}
