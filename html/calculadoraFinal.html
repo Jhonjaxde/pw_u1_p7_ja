@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalculadoraFinal</title>
     <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/calculadora.js"></script>
 </head>
 
 <body>
@@ -17,22 +18,24 @@
         <div>
             <div class="container">
                 <div class="calculadora">
-                    <div class="display">1+2</div>
+                    <div id="id-dsplay" class="display">
+                        1+2
+                    </div>
                     <button style=" grid-column: span 2;">C</button>
-                    <button>&larr;</button>
-                    <button>%</button>
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
-                    <button>x</button>
-                    <button>4</button>
-                    <button id="num5">5</button>
-                    <button>6</button>
-                    <button>-</button>
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button>+</button>
+                    <button onclick="recibirValor('')" >&larr;</button>
+                    <button onclick="recibirValor('%')" >%</button>
+                    <button onclick="recibirValor('7')" >7</button>
+                    <button onclick="recibirValor('8')" >8</button>
+                    <button onclick="recibirValor('9')" >9</button>
+                    <button onclick="recibirValor('x')" >x</button>
+                    <button onclick="recibirValor(4)" >4</button>
+                    <button onclick="recibirValor(5)" id="num5" >5</button>
+                    <button onclick="recibirValor('6')" >6</button>
+                    <button onclick="recibirValor('-')" >-</button>
+                    <button onclick="recibirValor('1')" >1</button>
+                    <button onclick="recibirValor('2')" >2</button>
+                    <button onclick="recibirValor('3')" >3</button>
+                    <button onclick="recibirValor('+')" >+</button>
                     <button style=" grid-column: span 2;">0</button>
                     <button>.</button>
                     <button>=</button>

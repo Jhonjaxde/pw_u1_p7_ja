@@ -29,4 +29,25 @@ border-radius: 15px;
     margin-bottom: 5px;
     color: black;
     font-size: 35px;
+    border: groove;
+    border-color:rgb(128, 128, 159) ;
+}
+button{
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    border: dotted dashed solid double;
+    border-color: rgb(80, 110, 124);
+    background-color: rgb(211, 221, 228);
+    font-size: 25px;
+    color: black;
+    box-shadow: 3px 2px 2px 2px rgb(44, 44, 44);
+}
+button:hover{
+    background-color: rgb(171, 179, 184);
+}
+
+button:active{
+    background-color: rgb(183, 191, 196);
 }
