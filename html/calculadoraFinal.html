@@ -19,26 +19,26 @@
             <div class="container">
                 <div class="calculadora">
                     <div id="id-dsplay" class="display">
-                        1+2
+                       
                     </div>
-                    <button style=" grid-column: span 2;">C</button>
-                    <button onclick="recibirValor('')" >&larr;</button>
-                    <button onclick="recibirValor('%')" >%</button>
-                    <button onclick="recibirValor('7')" >7</button>
-                    <button onclick="recibirValor('8')" >8</button>
-                    <button onclick="recibirValor('9')" >9</button>
-                    <button onclick="recibirValor('x')" >x</button>
-                    <button onclick="recibirValor(4)" >4</button>
-                    <button onclick="recibirValor(5)" id="num5" >5</button>
-                    <button onclick="recibirValor('6')" >6</button>
-                    <button onclick="recibirValor('-')" >-</button>
-                    <button onclick="recibirValor('1')" >1</button>
-                    <button onclick="recibirValor('2')" >2</button>
-                    <button onclick="recibirValor('3')" >3</button>
-                    <button onclick="recibirValor('+')" >+</button>
-                    <button style=" grid-column: span 2;">0</button>
-                    <button>.</button>
-                    <button>=</button>
+                        <button style=" grid-column: span 2;" onclick="limpiar()">C</button>
+                        <button onclick="recibirValor('')" >&larr;</button>
+                        <button onclick="evaluarOperacion('%')" >%</button>
+                        <button onclick="recibirValor(7)" >7</button>
+                        <button onclick="recibirValor(8)" >8</button>
+                        <button onclick="recibirValor(9)" >9</button>
+                        <button onclick="evaluarOperacion('x')" >x</button>
+                        <button onclick="recibirValor(4)" >4</button>
+                        <button onclick="recibirValor(5)" id="num5" >5</button>
+                        <button onclick="recibirValor(6)" >6</button>
+                        <button onclick="evaluarOperacion('-')" >-</button>
+                        <button onclick="recibirValor(1)" >1</button>
+                        <button onclick="recibirValor(2)" >2</button>
+                        <button onclick="recibirValor(3)" >3</button>
+                        <button onclick="evaluarOperacion('+')" >+</button>
+                    <button style=" grid-column: span 2;" onclick="recibirValor('0')">0</button>
+                    <button onclick="recibirValor('.')">.</button>
+                    <button onclick="igual()">=</button>
                 </div>
             </div>
         </div>
